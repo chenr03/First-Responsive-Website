@@ -1,3 +1,123 @@
-.main {
-    Color: Black;
+.wrapper {
+   display: flex;
+}
+
+.box {
+    width: 100%;
+    height: 20px;
+    border: 22px solid black;
+}
+
+.cornflowerblue {
+    background: cornflowerblue;
+}
+
+.coral{
+    background: coral;
+}
+
+.aquamarine {
+    background: aquamarine;
+}
+
+/* Set the background color of body to antique white */
+body {
+    background-color: lightblue;
+    margin: auto;
+}
+
+h1{
+    margin-top: 175px;
+    font-size: 40px;
+    color: white;
+}
+
+main {
+    height:450px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+section {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+article {
+    text-align: center;
+    padding: 50px;
+}
+
+.title {
+}
+
+.list {
+    font-weight: normal;
+    color:white;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column {
+    float: left;
+    width:33.33%;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (min-width: 576px) {
+    body {
+        background-color: dodgerblue;
+        font-size: 25px;
+}
+    article {
+        max-width: 225px;
+        max-height:500px;
+    }
+    h1 {
+        font-size:60px;
+}
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: navy;
+        font-size: 27px;
+        justify-content: space-evenly;
+    }
+    h1 {
+        font-size:100px;
+    }
+    .column {
+        width: 100%;
+    }
+
 }
