@@ -3,6 +3,7 @@
     height: 25px;
     border: 22px solid black;
 
+
 }
 
 .cornflowerblue {
@@ -69,6 +70,7 @@ section {
     margin-right: 50px;
     margin-bottom: 50px;
 
+
 }
 
 article {
@@ -120,11 +122,11 @@ article {
 }
     .box {
         padding-left: 15px;
-        margin-left: 10px
+        margin-left: 10px;
 }
 
     .section {
-        height: 1050px;
+        height: 1180px;
         display: grid;
         text-align: center;
         font-family: 'Anton', sans-serif;
